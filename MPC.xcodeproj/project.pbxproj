@@ -14,6 +14,8 @@
 		C3FBC0941DEFBFB8008AB781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FBC0921DEFBFB8008AB781 /* LaunchScreen.storyboard */; };
 		C3FBC09F1DEFBFB8008AB781 /* MPCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FBC09E1DEFBFB8008AB781 /* MPCTests.swift */; };
 		C3FBC0AA1DEFBFB8008AB781 /* MPCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FBC0A91DEFBFB8008AB781 /* MPCUITests.swift */; };
+		C3FBC0BA1DEFC71D008AB781 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = C3FBC0B91DEFC71D008AB781 /* Sounds */; };
+		C3FBC0BC1DEFD0C9008AB781 /* 90bpm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3FBC0BB1DEFD0C9008AB781 /* 90bpm.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C3FBC0A51DEFBFB8008AB781 /* MPCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FBC0A91DEFBFB8008AB781 /* MPCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPCUITests.swift; sourceTree = "<group>"; };
 		C3FBC0AB1DEFBFB8008AB781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FBC0B91DEFC71D008AB781 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		C3FBC0BB1DEFD0C9008AB781 /* 90bpm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 90bpm.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		C3FBC07D1DEFBFB8008AB781 = {
 			isa = PBXGroup;
 			children = (
+				C3FBC0BB1DEFD0C9008AB781 /* 90bpm.mp3 */,
+				C3FBC0B91DEFC71D008AB781 /* Sounds */,
 				C3FBC0881DEFBFB8008AB781 /* MPC */,
 				C3FBC09D1DEFBFB8008AB781 /* MPCTests */,
 				C3FBC0A81DEFBFB8008AB781 /* MPCUITests */,
@@ -229,6 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3FBC0BC1DEFD0C9008AB781 /* 90bpm.mp3 in Resources */,
+				C3FBC0BA1DEFC71D008AB781 /* Sounds in Resources */,
 				C3FBC0941DEFBFB8008AB781 /* LaunchScreen.storyboard in Resources */,
 				C3FBC0911DEFBFB8008AB781 /* Assets.xcassets in Resources */,
 				C3FBC08F1DEFBFB8008AB781 /* Main.storyboard in Resources */,
@@ -482,6 +490,7 @@
 				C3FBC0B01DEFBFB8008AB781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3FBC0B11DEFBFB8008AB781 /* Build configuration list for PBXNativeTarget "MPCTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				C3FBC0B31DEFBFB8008AB781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3FBC0B41DEFBFB8008AB781 /* Build configuration list for PBXNativeTarget "MPCUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				C3FBC0B61DEFBFB8008AB781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
